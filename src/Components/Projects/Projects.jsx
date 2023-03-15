@@ -55,8 +55,8 @@ const Projects = () => {
                                 <div data-aos='fade-left' className="project" key={id}>
                                     <a href={link} target="_blank" rel="noreferrer">
                                         <picture>
-                                            <source srcset={image1} type='image/webp' />
-                                            <source srcset={image2} type='image/jpg' />
+                                            <source srcSet={image1} type='image/webp' />
+                                            <source srcSet={image2} type='image/jpg' />
                                             <img src={image1} alt="img" />
                                         </picture>
                                         <h2>{name}</h2>

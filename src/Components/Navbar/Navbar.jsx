@@ -23,11 +23,11 @@ const Navbar = (props) => {
 
                 <div className={icon ? "menu mobile_menu" : "menu"}>
 
-                    <NavLink exact activeClassName="active_class" className="anc" to="#home" onClick={normal}>Home</NavLink>
-                    <NavLink exact activeClassName="active_class" className="anc" to="#about" onClick={normal}>About</NavLink>
-                    <NavLink exact activeClassName="active_class" className="anc" to="#portfolio" onClick={normal}>Portfolio</NavLink>
-                    <NavLink exact activeClassName="active_class" className="anc" to="#projects" onClick={normal}>Projects</NavLink>
-                    <NavLink exact activeClassName="active_class" className="anc" to="#contact" onClick={normal}>Contact</NavLink>
+                    <NavLink exact="true" activeClassname="active_class" className="anc" to="#home" onClick={normal}>Home</NavLink>
+                    <NavLink exact="true" className="anc" to="#about" onClick={normal}>About</NavLink>
+                    <NavLink exact="true" className="anc" to="#portfolio" onClick={normal}>Portfolio</NavLink>
+                    <NavLink exact="true" className="anc" to="#projects" onClick={normal}>Projects</NavLink>
+                    <NavLink exact="true" className="anc" to="#contact" onClick={normal}>Contact</NavLink>
 
                     <div className="togglerIcon" onClick={normal}>
                         <img src={moon} alt="img" onClick={props.themeToggler} />

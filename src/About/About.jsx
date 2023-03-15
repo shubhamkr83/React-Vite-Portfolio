@@ -12,7 +12,7 @@ const About = () => {
 
     useEffect(() => {
         Aos.init({
-            duration: 2000,
+            duration: 1000,
             offset: 100,
             easing: 'ease-in-sine',
         });
@@ -25,7 +25,7 @@ const About = () => {
                 <div className="about_center">
                     <picture data-aos='fade-right' className="about_left">
                         {/* <source srcset={web1} type='image/webp' /> */}
-                        <source srcset={web2} type='image/jpg' />
+                        <source src={web2} type='image/jpg' />
                         <img src={web2} alt="img" />
                     </picture>
 
