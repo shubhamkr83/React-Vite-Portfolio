@@ -10,3 +10,8 @@ Live Project:- https://shubhamweb.netlify.app
 <li>Emailjs</li>
 </ul>
 
+<h2>Project Screenshot</h2>
+<h3>Home Page</h3>
+
+![Screenshot (392)](https://github.com/shubhamkr83/React-Vite-Portfolio/assets/72254047/2d8abf09-1e82-4c8b-b5a9-cb61a583035e)
+
