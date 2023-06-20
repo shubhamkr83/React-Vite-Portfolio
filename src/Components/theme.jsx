@@ -26,6 +26,9 @@ ${'' /* ------- home section ------------ */}
 .home_section .center_home .left_sec h2{
     color: ${props => props.theme.homeFontColor};
 }
+.home_section .center_home .left_sec h3{
+    color: ${props => props.theme.homeFontColor};
+}
 .home_section .center_home .left_sec .icons .MuiSvgIcon-root{
     color: ${props => props.theme.fontColor}
 }

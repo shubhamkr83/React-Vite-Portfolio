@@ -1,10 +1,8 @@
 .home_section {
   width: 100%;
-  height: 66rem;
-  margin-top: -1.3rem;
+  height: calc(100vh - 6.8rem);
   display: grid;
   place-items: center;
-  /* border: 2px solid red; */
 }
 .home_section .center_home {
   width: 115rem;
@@ -12,15 +10,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 5rem;
-  /* border: 2px solid red; */
 }
 .home_section .center_home .left_sec {
   width: 62rem;
-  height: 20rem;
+  height: 30rem;
   font-family: "Montserrat", sans-serif;
   margin-left: 0.1rem;
-  /* border: 2px solid red; */
 }
 .home_section .center_home .left_sec h1 {
   font-weight: 900;
@@ -33,6 +28,7 @@
 .home_section .center_home .left_sec .icons {
   display: flex;
   flex-direction: row;
+  margin-top: 1rem;
   transition: all 0.3s linear;
 }
 .home_section .center_home .left_sec .icons .MuiSvgIcon-root {
@@ -58,7 +54,7 @@
   font-family: "Poppins", sans-serif;
 }
 .home_section .center_home .left_sec h3 {
-  padding: 0.2rem 0;
+  padding: 0.6rem 0;
   font-weight: 500;
   font-size: 2rem;
   color: #383737;

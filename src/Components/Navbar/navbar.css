@@ -74,6 +74,7 @@
 .togglerIcon img {
   width: 4rem;
   height: auto;
+  cursor: pointer;
 }
 
 .menuIcon {
