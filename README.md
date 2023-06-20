@@ -13,5 +13,5 @@ Live Project:- https://shubhamweb.netlify.app
 <h2>Project Screenshot</h2>
 <h3>Home Page</h3>
 
-![Screenshot (392)](https://github.com/shubhamkr83/React-Vite-Portfolio/assets/72254047/2d8abf09-1e82-4c8b-b5a9-cb61a583035e)
+![Screenshot (393)](https://github.com/shubhamkr83/React-Vite-Portfolio/assets/72254047/23979487-8f7c-4c31-a57b-14b63b8b3fe3)
 
