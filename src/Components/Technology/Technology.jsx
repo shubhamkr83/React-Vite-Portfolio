@@ -16,7 +16,6 @@ const Technology = () => {
     useEffect(() => {
         Aos.init({
             duration: 1000,
-            offset: 100,
             easing: 'ease-in-sine',
         });
     }, []);

@@ -1,7 +1,6 @@
 import React from 'react';
 import Skill from "../Components/Skills/Skill";
 import Technology from "../Components/Technology/Technology";
-import Projects from '../Components/Projects/Projects';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
@@ -13,7 +12,6 @@ const Portfolio = () => {
     useEffect(() => {
         Aos.init({
             duration: 1000,
-            offset: 100,
             easing: 'ease-in-sine',
         });
     }, []);
@@ -25,7 +23,6 @@ const Portfolio = () => {
             </div>
             <Skill />
             <Technology />
-            <Projects />
         </>
     )
 };

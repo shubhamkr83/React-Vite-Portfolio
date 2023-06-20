@@ -63,7 +63,6 @@ const Contact = () => {
     useEffect(() => {
         Aos.init({
             duration: 1000,
-            offset: 100,
             easing: 'ease-in-sine',
         });
     }, []);
@@ -71,9 +70,9 @@ const Contact = () => {
     return (
         <>
             <form className="contact_section" id="contact" method="POST" onSubmit={sendEmail}>
-                <h2 data-aos='zoom-in'>Contact Us</h2>
+                <h2>Contact Us</h2>
                 <div className="center_contact">
-                    <div data-aos='fade-up' className="input_section">
+                    <div className="input_section">
                         <label>FullName</label>
                         <input type="text"
                             name="name"
@@ -82,7 +81,7 @@ const Contact = () => {
                             onChange={handleInputs}
                         />
                     </div>
-                    <div data-aos='fade-up' className="input_section">
+                    <div className="input_section">
                         <label>Email Id</label>
                         <input type="email"
                             name="email"
@@ -91,7 +90,7 @@ const Contact = () => {
                             onChange={handleInputs}
                         />
                     </div>
-                    <div data-aos='fade-up' className="input_section">
+                    <div className="input_section">
                         <label>Phone No.</label>
                         <input type="number"
                             name="phone"
@@ -100,7 +99,7 @@ const Contact = () => {
                             onChange={handleInputs}
                         />
                     </div>
-                    <div data-aos='fade-up' className="input_text">
+                    <div className="input_text">
                         <label>Message</label>
                         <textarea
                             name="message"
@@ -111,7 +110,7 @@ const Contact = () => {
                         </textarea>
                     </div>
 
-                    <input type="submit" value="Send" data-aos='fade-up' className="submit_button" />
+                    <input type="submit" value="Send" className="submit_button" />
                 </div>
             </form>
             <ToastContainer />

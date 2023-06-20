@@ -9,9 +9,7 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import "./home.css";
-import About from '../About/About';
-import Portfolio from '../Portfolio/Portfolio';
-import Contact from '../Contact/Contact';
+import About from "../About/About";
 
 const Home = () => {
 
@@ -19,7 +17,6 @@ const Home = () => {
 
         Aos.init({
             duration: 1000,
-            offset: 100,
         });
 
     }, []);
@@ -30,9 +27,10 @@ const Home = () => {
                 <div className="center_home">
                     <div data-aos='fade-right' className="left_sec">
                         <h1> <span className="span" > Shubham </span> Kumar</h1>
-                        <h2>MERN Stack & Native Developer</h2>
+                        <h2>JAVA & MERN Stack Developer</h2>
+                        <h3><span className="span" >Email:-</span> shubham.krsaw836@gmail.com</h3>
+                        <h3><span className="span" >Phone:-</span> 6204843730</h3>
                         <div className="icons">
-                            {/* <a href="#" target="_blank" rel="noreferrer"><FacebookIcon /></a> */}
                             <a href="https://twitter.com/KrShubhamDev" target="_blank" rel="noreferrer"><TwitterIcon /></a>
                             <a href="https://www.instagram.com/shubhamkrdev/" target="_blank" rel="noreferrer"><InstagramIcon /></a>
                             <a href="https://www.linkedin.com/in/shubham-kumar836" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
@@ -44,9 +42,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <About />
-            <Portfolio />
-            <Contact />
         </>
     )
 };

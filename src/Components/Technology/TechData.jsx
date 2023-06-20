@@ -21,7 +21,7 @@ const FrontEnd = [
     },
     {
         id: 5,
-        image: "../image/js-jpg.jpg",
+        image: "../image/js-webp.webp",
         name: "JavaScript",
     },
     {
@@ -53,7 +53,7 @@ const FrontEnd = [
 const BackEnd = [
     {
         id: 1,
-        image: "../image/Nodejs.svg",
+        image: "../image/nodejs.svg",
         name: "Node & Express JS",
     },
     {

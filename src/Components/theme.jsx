@@ -6,8 +6,8 @@ export const lightTheme = {
 };
 export const darkTheme = {
     backgroundColor: "#000",
-    fontColor: "#fff",
-    homeFontColor: "#cfcfcf",
+    fontColor: "#ffff",
+    homeFontColor: "#f5f5f5",
     boxShadow: "none",
     secondary_color: "#0084F1",
     boxShadow2: "-7px 6px 18px 2px #0084F1",
@@ -23,18 +23,16 @@ body {
 }
 
 ${'' /* ------- home section ------------ */}
-.home_section .left_sec h3{
+.home_section .center_home .left_sec h2{
     color: ${props => props.theme.homeFontColor};
 }
-.left_sec .icons .MuiSvgIcon-root{
+.home_section .center_home .left_sec .icons .MuiSvgIcon-root{
     color: ${props => props.theme.fontColor}
 }
-.left_sec .icons .MuiSvgIcon-root:hover{
+.home_section .center_home .left_sec .icons .MuiSvgIcon-root:hover{
     color: ${props => props.theme.secondary_color}
 }
-.home_section .center_home .right_sec {
-    filter: ${props => props.theme.filter};
-}
+
 
 ${'' /* ------- Skill section ------------ */}
 .skill_section .center_section .card{
